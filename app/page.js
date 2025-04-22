@@ -92,11 +92,10 @@ export default function HomePage() {
 
     {/* Noticias */}
     <section className="flex justify-center">
-      <div className="container mx-auto absolute top-50 p-8 rounded bg-[rgba(31,41,55,0.7)]">
+      <div className="container mx-auto absolute top-50 p-4 rounded bg-[rgba(31,41,55,0.7)]">
         <h2 className="text-4xl text-white font-bold mb-4">🎬 ¡Cine gratuito para todos!</h2>
         <p className="text-white mb-6">
-          Disfruta de proyecciones de cine nacional e internacional sin costo alguno, organizadas por comunidades, universidades y centros culturales en diversos puntos del país.​ 
-          Desde el Festival Internacional de Cine Costa Rica (CRFIC) hasta el Centro de Cine del Ministerio de Cultura y Juventud, hay múltiples iniciativas que acercan el cine a la comunidad. 
+          Disfruta de proyecciones de cine nacional e internacional sin costo alguno, organizadas por comunidades, universidades y centros culturales en diversos puntos del país.​  
           Estos eventos incluyen funciones al aire libre, talleres y actividades culturales, fomentando el acceso al arte cinematográfico para todos.
         </p>
       </div>
