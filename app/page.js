@@ -103,7 +103,7 @@ export default function HomePage() {
     </section>
 
     <section className="container mx-auto px-4 py-12">
-      <h3 className="text-2xl font-semibold mb-6">🎥 Proyecciones para el mes de ""</h3>
+      <h3 className="text-2xl font-semibold mb-6">🎥 Proyecciones para el mes de </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Película 1 */}
         <div className="bg-white rounded shadow p-4">
