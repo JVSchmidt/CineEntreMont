@@ -92,12 +92,16 @@ export default function HomePage() {
 
     {/* Noticias */}
     <section className="flex justify-center">
-      <div className="container mx-auto absolute top-50 p-4 rounded bg-[rgba(31,41,55,0.7)]">
-        <h2 className="text-4xl text-white font-bold mb-4">🎬 ¡Cine gratuito para todos!</h2>
+      <div className="w-90 h-90 container mx-auto absolute top-40 rounded bg-[rgba(31,41,55,0)]">
+        {/*<h2 className="text-4xl text-white font-bold mb-4">🎬 ¡Cine gratuito para todos!</h2>
         <p className="text-white mb-6">
           Disfruta de proyecciones de cine nacional e internacional sin costo alguno, organizadas por comunidades, universidades y centros culturales en diversos puntos del país.​  
           Estos eventos incluyen funciones al aire libre, talleres y actividades culturales, fomentando el acceso al arte cinematográfico para todos.
-        </p>
+        </p>*/}
+        <img
+          src="/images/Logo.png"
+          alt="Logo de Cine entre montañas"
+        />
       </div>
     </section>
 
@@ -113,9 +117,6 @@ export default function HomePage() {
           />
           <h4 className="text-xl font-bold mb-2">Título de la Película 1</h4>
           <p className="mb-4">Horario: 18:00</p>
-          <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 flex items-center">
-            ❤️ Me gusta
-          </button>
         </div>
         {/* Película 2 */}
         <div className="bg-white rounded shadow p-4">
@@ -126,9 +127,6 @@ export default function HomePage() {
           />
           <h4 className="text-xl font-bold mb-2">Título de la Película 2</h4>
           <p className="mb-4">Horarios: 15:00, 18:00, 21:00</p>
-          <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 flex items-center">
-            ❤️ Me gusta
-          </button>
         </div>
         {/* Película 3 */}
         <div className="bg-white rounded shadow p-4">
@@ -139,9 +137,9 @@ export default function HomePage() {
           />
           <h4 className="text-xl font-bold mb-2">Título de la Película 3</h4>
           <p className="mb-4">Horarios: 16:00, 19:00, 22:00</p>
-          <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 flex items-center">
+          {/*<button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 flex items-center">
             ❤️ Me gusta
-          </button>
+          </button>*/}
         </div>
       </div>
     </section>
