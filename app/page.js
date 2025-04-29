@@ -27,7 +27,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-900">
 
-      {/* Encabezado */}
+{/* Encabezado */}
       <header className="bg-gray-800 bg-opacity-80 text-white py-6">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <h1 className="text-3xl font-bold">🎬 Cine Entre Montañas</h1>
@@ -47,42 +47,49 @@ export default function HomePage() {
 
 
 
-      {/* Carrusel */}
-    <section className="mx-auto bg-gray-200">
+{/* Carrusel */}
+    <section className="mx-auto bg-gray-200 container">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          <div className="relative flex-shrink-0 w-full h-120">
+          <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/pelicula1.jpg"
+              src="/images/pelicula1.jpeg"
               alt="Banner 1"
               className="object-cover w-full h-full rounded-lg"
             />
           </div>
-          <div className="relative flex-shrink-0 w-full h-120">
+          <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/pelicula2.jpg"
+              src="/images/pelicula2.jpeg"
               alt="Banner 2"
               className="object-cover w-full h-full rounded-lg"
             />
           </div>
-          <div className="relative flex-shrink-0 w-full h-120">
+          <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/pelicula3.jpg"
+              src="/images/pelicula3.jpeg"
               alt="Banner 3"
               className="object-cover w-full h-full rounded-lg"
             />
           </div>
-          <div className="relative flex-shrink-0 w-full h-120">
+          <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/Proximamente1.jpg"
+              src="/images/Proximamente1.jpeg"
               alt="Banner 4"
               className="object-cover w-full h-full rounded-lg"
             />
           </div>
-          <div className="relative flex-shrink-0 w-full h-120">
+          <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/Proximamente2.jpg"
               alt="Banner 5"
+              className="object-cover w-full h-full rounded-lg"
+            />
+          </div>
+          <div className="relative flex-shrink-0 w-full">
+            <img
+              src="/images/Proximamente3.jpg"
+              alt="Banner 6"
               className="object-cover w-full h-full rounded-lg"
             />
           </div>
@@ -90,9 +97,9 @@ export default function HomePage() {
       </div>
     </section>
 
-    {/* Noticias */}
+{/* Noticias */}
     <section className="flex justify-center">
-      <div className="w-90 h-90 container mx-auto absolute top-40 rounded bg-[rgba(31,41,55,0)]">
+      <div className="w-90 h-90 container mx-auto absolute top-80 rounded bg-[rgba(31,41,55,0)]">
         {/*<h2 className="text-4xl text-white font-bold mb-4">🎬 ¡Cine gratuito para todos!</h2>
         <p className="text-white mb-6">
           Disfruta de proyecciones de cine nacional e internacional sin costo alguno, organizadas por comunidades, universidades y centros culturales en diversos puntos del país.​  
@@ -105,38 +112,40 @@ export default function HomePage() {
       </div>
     </section>
 
+
+{/* ESTE MES */}    
     <section className="container mx-auto px-4 py-12">
       <h3 className="text-2xl font-semibold mb-6">🎥 Proyecciones para el mes de </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Película 1 */}
         <div className="bg-white rounded shadow p-4">
           <img
-            src="/images/pelicula1.jpg"
+            src="/images/pelicula1.jpeg"
             alt="Película 1"
             className="w-full h-64 object-cover rounded mb-4"
           />
-          <h4 className="text-xl font-bold mb-2">Título de la Película 1</h4>
-          <p className="mb-4">Horario: 18:00</p>
+          <h4 className="text-xl font-bold mb-2">WALL-E</h4>
+          <p className="mb-4">Horario: por definir.</p>
         </div>
         {/* Película 2 */}
         <div className="bg-white rounded shadow p-4">
           <img
-            src="/images/pelicula2.jpg"
+            src="/images/pelicula2.jpeg"
             alt="Película 2"
             className="w-full h-64 object-cover rounded mb-4"
           />
-          <h4 className="text-xl font-bold mb-2">Título de la Película 2</h4>
-          <p className="mb-4">Horarios: 15:00, 18:00, 21:00</p>
+          <h4 className="text-xl font-bold mb-2">GATO X LIEBRE</h4>
+          <p className="mb-4">Horarios: por definir.</p>
         </div>
         {/* Película 3 */}
         <div className="bg-white rounded shadow p-4">
           <img
-            src="/images/pelicula3.jpg"
+            src="/images/pelicula3.jpeg"
             alt="Película 3"
             className="w-full h-64 object-cover rounded mb-4"
           />
-          <h4 className="text-xl font-bold mb-2">Título de la Película 3</h4>
-          <p className="mb-4">Horarios: 16:00, 19:00, 22:00</p>
+          <h4 className="text-xl font-bold mb-2">LA ESTRATEGIA DEL CARACOL</h4>
+          <p className="mb-4">Horarios: por definir.</p>
           {/*<button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 flex items-center">
             ❤️ Me gusta
           </button>*/}
@@ -144,6 +153,8 @@ export default function HomePage() {
       </div>
     </section>
 
+
+{/* Proximamente */}  
       <section className="bg-gray-200 py-12">
         <div className="container mx-auto px-4">
           <h3 className="text-2xl font-semibold mb-6">🎬 Próximamente</h3>
@@ -151,12 +162,12 @@ export default function HomePage() {
             {/* Estreno 1 */}
             <div className="bg-white rounded shadow p-4">
               <img
-                src="/images/Proximamente1.jpg"
+                src="/images/Proximamente1.jpeg"
                 alt="Próximamente 1"
                 className="w-full h-64 object-cover rounded mb-4"
               />
-              <h4 className="text-xl font-bold mb-2">Título del Estreno 1</h4>
-              <p className="mb-2">Fecha de proyeccion: 25 de abril</p>
+              <h4 className="text-xl font-bold mb-2">TRASH</h4>
+              <p className="mb-2">Despues de encontrar una billetera en un basurero se ven envueltos en una peligrosa aventura contra la corrupción.</p>
             </div>
             {/* Estreno 2 */}
             <div className="bg-white rounded shadow p-4">
@@ -182,27 +193,61 @@ export default function HomePage() {
         </div>
       </section>
 
+{/* Sobre Nosotros */}  
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-extrabold text-gray-800 mb-8">
-            🎬 <span className="text-600">Sobre Nosotros</span>
+             <span className="text-600">Sobre Nosotros</span>
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Somos un colectivo de cineastas, activistas culturales y ciudadanos apasionados por el cine como herramienta de <span className="font-semibold text-indigo-600">transformación social</span>. Nuestro trabajo va más allá de las pantallas, buscamos crear conexiones entre las personas y las historias que transforman.
+          Somos un proyecto de cine comunitario que crea espacios de encuentro y diálogo en Monteverde y comunidades cercanas. Más que proyecciones, buscamos conectar personas y generar transformaciones a través de las historias.
           </p>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Nuestro objetivo es llevar el cine gratuito y de calidad a <span className="font-semibold text-indigo-600">comunidades de todo Costa Rica</span>, promoviendo el acceso a historias que reflejan nuestra riqueza cultural, diversidad y sueños compartidos.
+          Llevamos cine gratuito y de calidad a zonas rurales, promoviendo el acceso a la cultura, la diversidad y el conocimiento. A través de funciones al aire libre, talleres y festivales itinerantes, impulsamos la reflexión, el aprendizaje y la construcción colectiva.
           </p>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            A través de <span className="font-semibold text-indigo-600">proyecciones al aire libre, talleres y festivales itinerantes</span>, buscamos crear espacios de encuentro, reflexión y aprendizaje. El cine se convierte en un medio para el diálogo y la construcción colectiva.
-          </p>
-          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Creemos en el poder del cine para conectar a las personas, inspirar cambios y fortalecer el tejido social. Cada <span className="font-semibold text-indigo-600">estreno</span> es una invitación a soñar, cuestionar y compartir experiencias que nos unen como comunidad.
+          Creemos en el cine como una herramienta para fortalecer el tejido social, inspirar cambios y compartir experiencias que nos unen como comunidad.
           </p>
         </div>
       </section>
 
+{/* ¿Cómo podés apoyarnos? */}  
+      <section className="bg-gray-200 py-16">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-4xl font-extrabold text-gray-800 mb-8">
+             <span className="text-600">¿Cómo podés apoyarnos?</span>
+          </h2>
+          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+          Podés sumarte como voluntario o voluntaria apoyando en la logística de las proyecciones, difusión de eventos o facilitación de talleres. También podés colaborar con donaciones para el mantenimiento del equipo y la realización de más funciones en comunidades rurales. Cada aporte, grande o pequeño, nos ayuda a seguir llevando cine, cultura y encuentro a más personas.
+          </p>
+          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            Si querés ser parte, escribinos a{" "}
+            <a href="mailto:cinecomunitario22@gmail.com" className="text-blue-600 underline hover:text-blue-800">
+              cinecomunitario22@gmail.com
+            </a>{" "}
+            o seguinos en Instagram como{" "}
+            <a href="https://instagram.com/cine.entre.montañas" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">
+              @cine.entre.montañas
+            </a>.
+          </p>
+          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+          ¡Y lo más importante: asistiendo a las proyecciones!
+          </p>
+        </div>
+      </section>
 
+{/* Alianzas */}  
+      <section className="bg-white py-8 ">
+          <div className="flex justify-center">
+            <img
+              src="/images/alianzas.jpeg"
+              alt="alianzas"
+              className=" object-contain"
+            />
+          </div>
+      </section>
+
+{/* footer */} 
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="mb-4">© 2025 Cine Entre Montañas. Todos los derechos reservados.</p>
