@@ -98,19 +98,15 @@ export default function HomePage() {
     </section>
 
 {/* Noticias */}
-    <section className="flex justify-center">
-      <div className="w-90 h-90 container mx-auto absolute top-80 rounded bg-[rgba(31,41,55,0)]">
-        {/*<h2 className="text-4xl text-white font-bold mb-4">🎬 ¡Cine gratuito para todos!</h2>
-        <p className="text-white mb-6">
-          Disfruta de proyecciones de cine nacional e internacional sin costo alguno, organizadas por comunidades, universidades y centros culturales en diversos puntos del país.​  
-          Estos eventos incluyen funciones al aire libre, talleres y actividades culturales, fomentando el acceso al arte cinematográfico para todos.
-        </p>*/}
-        <img
-          src="/images/Logo.png"
-          alt="Logo de Cine entre montañas"
-        />
-      </div>
-    </section>
+  <section className="flex justify-center z-10">
+    <div className="absolute top-32 sm:top-40 w-[30%] md:w-[25%]">
+      <img
+        src="/images/Logo.png"
+        alt="Logo de Cine entre montañas"
+        className="w-full h-auto"
+      />
+    </div>
+  </section>
 
 
 {/* ESTE MES */}    
