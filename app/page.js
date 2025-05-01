@@ -28,17 +28,17 @@ export default function HomePage() {
     <main className="min-h-screen bg-gray-100 text-gray-900">
 
 {/* Encabezado */}
-      <header className="bg-gray-800 bg-opacity-80 text-white py-6">
+      <header style={{ backgroundColor: '#084866' }} className="text-white py-6">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-3xl font-bold">🎬 Cine Entre Montañas</h1>
+          <h1 className="text-3xl font-bold flex items-center gap-2">
+            <img src="/images/Logo.png" alt="Logo Cine" className="h-[1em] inline" />
+            Cine Entre Montañas
+          </h1>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/cine.entre.montanas" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/cine.entre.montanas?igsh=MWI0NzIwNWpwemhtOQ==" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
           </div>
@@ -55,42 +55,42 @@ export default function HomePage() {
             <img
               src="/images/pelicula1.jpeg"
               alt="Banner 1"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full"
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/pelicula2.jpeg"
               alt="Banner 2"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full "
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/pelicula3.jpeg"
               alt="Banner 3"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full "
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/Proximamente1.jpeg"
               alt="Banner 4"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full "
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/Proximamente2.jpg"
               alt="Banner 5"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full "
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
               src="/images/Proximamente3.jpg"
               alt="Banner 6"
-              className="object-cover w-full h-full rounded-lg"
+              className="object-cover w-full h-full "
             />
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
 
 {/* Noticias */}
   <section className="flex justify-center z-10">
-    <div className="absolute top-32 sm:top-40 w-[30%] md:w-[25%]">
+    <div className="absolute top-32 sm:top-80 w-[30%] md:w-[20%]">
       <img
         src="/images/Logo.png"
         alt="Logo de Cine entre montañas"
@@ -111,7 +111,7 @@ export default function HomePage() {
 
 {/* ESTE MES */}    
     <section className="container mx-auto px-4 py-12">
-      <h3 className="text-2xl font-semibold mb-6">🎥 Proyecciones para el mes de </h3>
+      <h3 className="text-2xl font-semibold mb-6">🎥 Proyecciones para el mes de mayo</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Película 1 */}
         <div className="bg-white rounded shadow p-4">
@@ -234,6 +234,11 @@ export default function HomePage() {
 
 {/* Alianzas */}  
       <section className="bg-white py-8 ">
+            <div className="container mx-auto px-6 text-center">
+              <h2 className="text-4xl font-extrabold text-gray-800 ">
+                <span className="text-600">Alianzas</span>
+              </h2>
+            </div>
           <div className="flex justify-center">
             <img
               src="/images/alianzas.jpeg"
