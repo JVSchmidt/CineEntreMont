@@ -31,7 +31,7 @@ export default function HomePage() {
       <header style={{ backgroundColor: '#084866' }} className="text-white py-6">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <h1 className="text-3xl font-bold flex items-center gap-2">
-            <img src="/images/Logo.png" alt="Logo Cine" className="h-[1em] inline" />
+            <img src="/images/Logo_SinLetras.png" alt="Logo Cine" className="h-[1em] inline" />
             Cine Entre Montañas
           </h1>
           <div className="flex space-x-4">
@@ -81,14 +81,14 @@ export default function HomePage() {
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/Proximamente2.jpg"
+              src="/images/Proximamente2.jpeg"
               alt="Banner 5"
               className="object-cover w-full h-full "
             />
           </div>
           <div className="relative flex-shrink-0 w-full">
             <img
-              src="/images/Proximamente3.jpg"
+              src="/images/Proximamente3.jpeg"
               alt="Banner 6"
               className="object-cover w-full h-full "
             />
@@ -168,7 +168,7 @@ export default function HomePage() {
             {/* Estreno 2 */}
             <div className="bg-white rounded shadow p-4">
               <img
-                src="/images/Proximamente2.jpg"
+                src="/images/Proximamente2.jpeg"
                 alt="Próximamente 2"
                 className="w-full h-64 object-cover rounded mb-4"
               />
@@ -178,7 +178,7 @@ export default function HomePage() {
             {/* Estreno 3 */}
             <div className="bg-white rounded shadow p-4">
               <img
-                src="/images/Proximamente3.jpg"
+                src="/images/Proximamente3.jpeg"
                 alt="Próximamente 3"
                 className="w-full h-64 object-cover rounded mb-4"
               />
