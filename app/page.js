@@ -172,8 +172,8 @@ export default function HomePage() {
                 alt="Próximamente 2"
                 className="w-full aspect-[16/9] object-cover rounded mb-4"
               />
-              <h4 className="text-xl font-bold mb-2">Título del Estreno 2</h4>
-              <p className="mb-2">Fecha de proyeccion: 2 de mayo</p>
+              <h4 className="text-xl font-bold mb-2">CUANDO EL RÍO SUENA PIEDRAS TRAE</h4>
+              <p className="mb-2">El filme aborda un trágico suceso ocurrido en el río Guacimal, ubicado en Guanacaste, Costa Rica, relacionado con la conservación de la naturaleza.</p>
             </div>
             {/* Estreno 3 */}
             <div className="bg-white rounded shadow p-4">
@@ -182,8 +182,8 @@ export default function HomePage() {
                 alt="Próximamente 3"
                 className="w-full aspect-[16/9] object-cover rounded mb-4"
               />
-              <h4 className="text-xl font-bold mb-2">Título del Estreno 3</h4>
-              <p className="mb-2">Fecha de proyeccion: 9 de mayo</p>
+              <h4 className="text-xl font-bold mb-2">YO, TAMBÍEN</h4>
+              <p className="mb-2">Cuenta la historia de Daniel, un joven con síndrome de Down que se enamora de su compañera de trabajo. La película explora la inclusión, la autonomía y el amor desde una perspectiva humana y realista.</p>
             </div>
           </div>
         </div>
