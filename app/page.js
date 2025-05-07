@@ -118,7 +118,7 @@ export default function HomePage() {
           <img
             src="/images/pelicula1.jpeg"
             alt="Película 1"
-            className="w-full h-64 object-cover rounded mb-4"
+            className="w-full aspect-[16/9] object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold mb-2">WALL-E</h4>
           <p className="mb-4">Horario: por definir.</p>
@@ -128,7 +128,7 @@ export default function HomePage() {
           <img
             src="/images/pelicula2.jpeg"
             alt="Película 2"
-            className="w-full h-64 object-cover rounded mb-4"
+            className="w-full aspect-[16/9] object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold mb-2">GATO X LIEBRE</h4>
           <p className="mb-4">Horarios: por definir.</p>
@@ -138,7 +138,7 @@ export default function HomePage() {
           <img
             src="/images/pelicula3.jpeg"
             alt="Película 3"
-            className="w-full h-64 object-cover rounded mb-4"
+            className="w-full aspect-[16/9] object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold mb-2">LA ESTRATEGIA DEL CARACOL</h4>
           <p className="mb-4">Horarios: por definir.</p>
@@ -160,7 +160,7 @@ export default function HomePage() {
               <img
                 src="/images/Proximamente1.jpeg"
                 alt="Próximamente 1"
-                className="w-full h-64 object-cover rounded mb-4"
+                className="w-full aspect-[16/9] object-cover rounded mb-4"
               />
               <h4 className="text-xl font-bold mb-2">TRASH</h4>
               <p className="mb-2">Despues de encontrar una billetera en un basurero se ven envueltos en una peligrosa aventura contra la corrupción.</p>
@@ -170,7 +170,7 @@ export default function HomePage() {
               <img
                 src="/images/Proximamente2.jpeg"
                 alt="Próximamente 2"
-                className="w-full h-64 object-cover rounded mb-4"
+                className="w-full aspect-[16/9] object-cover rounded mb-4"
               />
               <h4 className="text-xl font-bold mb-2">Título del Estreno 2</h4>
               <p className="mb-2">Fecha de proyeccion: 2 de mayo</p>
@@ -180,7 +180,7 @@ export default function HomePage() {
               <img
                 src="/images/Proximamente3.jpeg"
                 alt="Próximamente 3"
-                className="w-full h-64 object-cover rounded mb-4"
+                className="w-full aspect-[16/9] object-cover rounded mb-4"
               />
               <h4 className="text-xl font-bold mb-2">Título del Estreno 3</h4>
               <p className="mb-2">Fecha de proyeccion: 9 de mayo</p>
