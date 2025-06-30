@@ -127,11 +127,11 @@ export default function HomePage() {
   <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black/50 px-4 text-center">
     <h2 className="text-4xl font-bold mb-4"> ¡Próxima Proyección!</h2>
     <img
-      src="/images/pelicula1.png"
+      src="/images/P1.png"
       alt="Próxima película"
       className="w-full max-w-md rounded shadow-lg mb-4 object-cover aspect-[16/9]"
     />
-    <h3 className="text-2xl font-semibold">El Dorado</h3>
+    <h3 className="text-2xl font-semibold">Intensamente 2</h3>
     <p className="text-lg mt-2">Viernes 27 de Junio, 6:00pm en Caburé</p>
   </div>
 </section>
@@ -170,7 +170,7 @@ export default function HomePage() {
               <div className="bg-[#1E1E1E]/50 ">
                 <img
                 /* bg-white */
-                  src="/images/pelicula3.png"
+                  src="/images/P1.png"
                   alt="Película 1"
                   className="w-full aspect-[16/9] object-cover rounded mb-4"
                 />
