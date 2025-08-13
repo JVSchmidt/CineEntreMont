@@ -128,8 +128,8 @@ export default function HomePage() {
                 </p>
               </div>
 
-              {/* Sección de imagen - 30% */}
-              <div className="w-full md:w-[30%] flex justify-center">
+              {/* Sección de video*/}
+              <div className="w-full md:w-[80%] flex justify-center">
                 <video
                   className="rounded-xl shadow-lg max-w-full h-auto"
                   autoPlay
@@ -137,9 +137,6 @@ export default function HomePage() {
                   loop
                   playsInline
                   preload="metadata"
-                  // Opcional: si querés controles visibles, podés dejar controls. 
-                  // Ojo: algunos navegadores retrasan el autoplay si no está muted.
-                  // controls
                   poster="/images/w9-poster.jpg" // ← Debe ser imagen (png/jpg/webp)
                 >
                   <source src="/videos/w9.mp4" type="video/mp4" />
@@ -167,25 +164,24 @@ export default function HomePage() {
 
       {/* ¿Cómo podés apoyarnos? */}
       <section style={{ backgroundColor: "#1E1E1E", color: "white" }} className="py-1">
-        {/* Capa oscura encima para contraste */}
         <div className="bg-[#1E1E1E]/90 py-16">
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row gap-8 items-center">
-              {/* Imagen - 30% */}
+              
+              {/* Imagen izquierda - 30% */}
               <div className="w-full md:w-[30%] flex justify-center">
                 <img
-                  src="/images/Somos2.jpeg"
+                  src="/images/peresozoTips.png"
                   alt="Apoyanos"
-                  className="rounded-xl shadow-lg max-w-full h-auto"
+                  className="rounded-xl max-w-full h-auto"
                 />
               </div>
 
-              {/* Texto - 70% */}
-              <div className="w-full md:w-[70%]">
+              {/* Texto - 40% */}
+              <div className="w-full md:w-[40%]">
                 <h2 className="text-4xl font-extrabold text-gray-100 mb-8 text-center md:text-left">
                   <span className="text-600">¿Cómo podés apoyarnos?</span>
                 </h2>
-
                 <ul className="text-lg text-gray-100 mb-6 leading-relaxed list-disc list-inside">
                   <li>Apoyando en la logística de las proyecciones.</li>
                   <li>Ayudando en la difusión de eventos.</li>
@@ -194,15 +190,25 @@ export default function HomePage() {
                   <li>Claro, ¡asistiendo a las proyecciones!</li>
                 </ul>
               </div>
+
+              {/* Imagen derecha - 30% */}
+              <div className="w-full md:w-[30%] flex justify-center">
+                <img
+                  src="/images/peresozoCables.png"
+                  alt="Colaboración técnica"
+                  className="rounded-xl max-w-full h-auto"
+                />
+              </div>
+
             </div>
 
             <h2 className="text-2xl mt-8 text-center mx-auto italic">
-              Cada gesto cuenta. Ya sea grande o pequeño, tu apoyo nos impulsa a seguir compartiendo
-              cine, cultura y momentos de encuentro.
+              Cada gesto cuenta. Ya sea grande o pequeño, tu apoyo nos impulsa a seguir compartiendo cine, cultura y momentos de encuentro.
             </h2>
           </div>
         </div>
       </section>
+
 
       {/* divisor */}
       <section
@@ -270,7 +276,7 @@ export default function HomePage() {
             <div>
               <img
                 src="/images/josue.png"
-                alt="Integrante 1"
+                alt="Josue"
                 className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-white"
               />
               <h3 className="mt-4 text-xl font-semibold">Josué</h3>
@@ -281,7 +287,7 @@ export default function HomePage() {
             <div>
               <img
                 src="/images/mariana.png"
-                alt="Integrante 2"
+                alt="Mariana"
                 className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-white"
               />
               <h3 className="mt-4 text-xl font-semibold">Mariana</h3>
@@ -291,12 +297,34 @@ export default function HomePage() {
             {/* Integrante 3 */}
             <div>
               <img
-                src="/images/integrante3.jpg"
-                alt="Integrante 3"
+                src="/images/NoImgUser.png"
+                alt="Sofia"
                 className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-white"
               />
-              <h3 className="mt-4 text-xl font-semibold">Nombre Integrante 3</h3>
-              <p className="text-gray-300">Rol o descripción breve</p>
+              <h3 className="mt-4 text-xl font-semibold">Sofia</h3>
+              <p className="text-gray-300">Reina de las palomitas</p>
+            </div>
+
+             {/* Integrante 4 */}
+            <div>
+              <img
+                src="/images/NoImgUser.png"
+                alt="Orlando"
+                className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-white"
+              />
+              <h3 className="mt-4 text-xl font-semibold">Orlando</h3>
+              <p className="text-gray-300">Jedi de las extensiones</p>
+            </div>
+
+             {/* Integrante 5 */}
+            <div>
+              <img
+                src="/images/NoImgUser.png"
+                alt="Laura"
+                className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-white"
+              />
+              <h3 className="mt-4 text-xl font-semibold">Laura</h3>
+              <p className="text-gray-300">Oráculo del clima</p>
             </div>
           </div>
         </div>
